@@ -29,27 +29,11 @@ nav>ul>li {
     font-size: 125%;
 }
 
-nav>ul>li>a:link, #work>a:link {
+nav>ul>li>a:link, nav>ul>li>a:visited, nav>ul>li>a:hover, nav>ul>li>a:active, #work>a:link {
     text-decoration: none;
 }
 
-nav>ul>li>a:visited {
-    text-decoration: none;
-}
-
-nav>ul>li>a:hover {
-    text-decoration: none;
-}
-
-nav>ul>li>a:active {
-    text-decoration: none;
-}
-
-#work>a:link {
-    color: orange;
-}
-
-#work>a:visited {
+#work>a:link, #work>a:visited {
     color: orange;
 }
 
