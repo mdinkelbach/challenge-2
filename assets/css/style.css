@@ -6,9 +6,18 @@ h1 {
     font-size: 250%;
 }
 
+html {
+    display: flex;
+    justify-content: space-around;
+}
+
 html, body {
     height: 100vh;
     background-color: aqua;
+}
+
+body {
+    width: 65vw;
 }
 
 main {
@@ -78,6 +87,10 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+    body {
+        width: 80vw;
+    }
+
     nav>ul>li {
         flex-basis: 50%;
         text-align: center;
@@ -89,6 +102,10 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    body {
+        width: 100vw;
+    }
+
     nav>ul>li {
         flex-basis: 50%;
         text-align: center;
