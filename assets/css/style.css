@@ -1,9 +1,9 @@
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: Capriola, Helvetica, sans-serif;
 }
 
 h1 {
-    font-size: 250%;
+    font-size: 200%;
 }
 
 html {
@@ -29,6 +29,9 @@ main {
 main>section {
     flex-basis: 100px;
 }
+nav {
+    font-size: 80%;
+}
 
 nav>ul{
     width: 300px;
@@ -42,12 +45,39 @@ nav>ul>li>a:link, nav>ul>li>a:visited, nav>ul>li>a:hover, nav>ul>li>a:active, #w
     text-decoration: none;
 }
 
-#work>a:link, #work>a:visited {
-    color: orange;
+footer, #about-me>h2 {
+    text-align: center;
 }
 
-footer {
-    text-align: center;
+#about-me, #work, #contact, #resume {
+    display: flex;
+}
+
+#about-me>p, #contact>p {
+    padding: 25px 0 0 20px;
+}
+
+#work, #resume {
+    flex-direction: column;
+}
+
+.other-work {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#resume>p, #resume>img {
+    padding: 25px 0 0 85px;
+}
+
+.fop {
+    width: 245px;
+    height: 145px;
+}
+
+#work>a:link, #work>a:visited {
+    color: orange;
 }
 
 #contact>p {
@@ -57,7 +87,7 @@ footer {
 .profile-pic {
     margin: 0 auto;
     height: 200px;
-    width: 100%;
+    width: 200px;
 }
 
 .container {
